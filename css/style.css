@@ -1,0 +1,210 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 24px;  
+    color: #999999;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 150px; 
+    line-height: 140px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+h1 span {
+    font-family: 'Kaushan Script', cursive;
+    display: block;
+    font-size: 72px;
+    text-transform: capitalize;
+    color: #000;
+}
+
+.header li {
+    list-style-type: none;
+}
+
+.header ul {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.button {
+    border: 5px solid #000;
+    padding: 20px 60px;
+}
+
+h2 {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+}
+
+h2 span {
+    padding-bottom: 20px;
+    display: block;
+    font-family: 'Kaushan Script', cursive;
+    text-transform: none;
+    font-size: 24px;
+}
+
+.list-stat li {
+    list-style-type: none;
+}
+
+.list-stat {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.list-stat>li>span {
+    font-size: 72px;
+    display: block;
+    padding-bottom: 29px;
+}
+
+.list-stat>li {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.img-grid {
+    display: block;
+    float: left;
+    margin: 8px 30px 20px 0;
+}
+
+.txt-grid h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.txt-grid p {
+    font-size: 15px; 
+}
+
+.grid-item {
+    max-width: 400px;
+}
+
+.app {
+    margin-top: 100px;
+}
+
+.page-faq img{
+    display: block;
+    float: left;
+}
+
+.page-comments {
+    display: block;
+    margin-top: 300px;
+}
+
+.page-comments img {
+    margin-right: 60px;
+    float: left;
+}
+
+.page-comments p {
+    max-width: 757px;
+    
+}
+
+.page-comments p span {
+    display: block;
+    text-transform: capitalize;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    color: #000;
+    margin-top: 24px;
+}
+
+.page-team {
+    margin-top: 100px;
+}
+
+.page-team-text {
+    max-width: 1100px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+figcaption {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+figcaption span {
+    display: block;
+    text-transform: capitalize;
+    color: #999999;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 15px;
+}
+
+
+
+/**/
+.faq_list{
+    position: relative;
+    color: #192430; 
+}
+.faq_item{
+    box-sizing: border-box;
+    border-left: 8px solid #a2adb6;
+    padding: 10px 0 10px 15px;
+}
+.faq_item_title{
+    box-sizing: border-box;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: relative;
+}
+.faq_show_all .faq_item_title{
+    font-weight: 900;
+    padding-left: 23px;
+    margin-top: 20px;
+}
+.faq_item_title_inner{
+    display: inline-block;
+    position: relative;
+    padding: 0 60px 0 0;
+    cursor: pointer;
+}
+.faq_item_title_inner:hover:before{
+    transform: translateY(1px);
+}
+.faq_item_title_inner:before{
+    position: absolute;
+    content: '';
+    right: 0;
+    top: 0;
+    width: 30px;
+    height: 100%;
+    background: url(../images/faq_arrow_down.png) no-repeat center center;
+    cursor: pointer;
+    transition: .2s;
+    transition-timing-function: ease-in-out;
+}
+.faq_item_title_inner.open:before{
+    transform: rotate(180deg);
+}
+.faq_item_body{
+    font-size: 16px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: none;
+}
+
+/**/
